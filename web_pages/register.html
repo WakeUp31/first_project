@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main class="registration-container">
+        <h1>Create Account</1>
+        <form action="/register" method="POST" novalidate>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required
+                       placeholder="Enter your username">
+            </div>
+         
+            <div class="form-group">
+                <label for="email">Email Adress</label>
+                <input type="email" id="email" name="email" requires
+                       placeholder="your.email@examle.com">
+            </div>
+         
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" requires
+                       placeholder="At least 8 characters" minlegth="8">
+            </div>
+         
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" requires
+                       placeholder="Re-enter your password">
+            </div>
+
+            <button type="submit">Sign Up</button>
+      </form>
+
+      <p class="login-link">
+             Already have an account? <a href="/login">Log in</a>
+      </p>
+      </main>
+</body>
+</html>
+
+            
+            
+            
